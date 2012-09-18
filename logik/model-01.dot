@@ -1,0 +1,11 @@
+strict digraph prof {
+graph [orientation=landscape,
+	size="1.0,1.5"];
+ratio=fill;
+node [style="filled"];
+"t" -> "r";
+"r" -> "s";
+"s" -> "t";
+"r" -> "t";
+};
+
